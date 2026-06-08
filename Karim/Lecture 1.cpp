@@ -44,6 +44,12 @@ int main()
     // cin is used to take input from the user through the console.
     cout << "You are " << age << " years old." << endl;
 
+    // Variables and assignment:
+    // Syntax of variable declaration and assignment in C++:
+    // 1- data_type variable_name = value;
+    // 2- data_type variable_name; (declaration without initialization)
+    // 3- variable_name = value; (assignment after declaration)
+
     // Note on Variables:
     // 1- Variable used to store one data value at a time.
     // 2- Variable must be declared before use.
@@ -59,5 +65,23 @@ int main()
     // 1- Arithmetic Operators: +, -, *, /, % (modulus)
     // Note on division operator (/):
     // When both operands are integers, the division operator performs integer division, which means it will return the quotient without the remainder. For example, 5 / 2 will return 2, not 2.5.
+
+    // Variables and Constants:
+    // A constant is a value that cannot be changed after it has been assigned. In C++, you can declare a constant using the const keyword. For example, const double PI = 3.14159; declares a constant named PI with the value of 3.14159.
+
+    // Variables casting:
+    // Casting is the process of converting a value from one data type to another. In C++, you can perform casting using either C-style casts or C++-style casts. For example, int x = 5; double y = (double)x; will convert the integer value of x to a double and assign it to y.
+
+    // Example of type casting in C++:
+    int a = 5;
+    double b = (double)a; // C++-style cast to convert int to double
+
+    // Shortcuts Notation:
+    // 1- a += 5; is equivalent to a = a + 5;
+    // 2- a -= 3; is equivalent to a = a - 3
+    // 3- a *= 2; is equivalent to a = a * 2;
+    // 4- a /= 4; is equivalent to a = a / 4;
+    // 5- a %= 3; is equivalent to a = a % 3;
+
     return 0;
 }
