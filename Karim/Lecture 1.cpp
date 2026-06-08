@@ -256,36 +256,103 @@ int main()
     //         // code to be executed if the expression doesn't match any case
     // }
 
-    // Example of a switch statement in C++:
-    int day;
-    cout << "Enter a number (1-7) to represent a day of the week: ";
-    cin >> day; // Take input from the user
+    // // Example of a switch statement in C++:
+    // int day;
+    // cout << "Enter a number (1-7) to represent a day of the week: ";
+    // cin >> day; // Take input from the user
 
-    switch (day)
-    {
-    case 1:
-        cout << "Sunday" << endl; // Output if day is 1
-        break;
-    case 2:
-        cout << "Monday" << endl; // Output if day is 2
-        break;
-    case 3:
-        cout << "Tuesday" << endl; // Output if day is 3
-        break;
-    case 4:
-        cout << "Wednesday" << endl; // Output if day is 4
-        break;
-    case 5:
-        cout << "Thursday" << endl; // Output if day is 5
-        break;
-    case 6:
-        cout << "Friday" << endl; // Output if day is 6
-        break;
-    case 7:
-        cout << "Saturday" << endl; // Output if day is 7
-        break;
-    default:
-        cout << "Invalid input. Please enter a number between 1 and 7." << endl;
-    }
+    // switch (day)
+    // {
+    // case 1:
+    //     cout << "Sunday" << endl; // Output if day is 1
+    //     break;
+    // case 2:
+    //     cout << "Monday" << endl; // Output if day is 2
+    //     break;
+    // case 3:
+    //     cout << "Tuesday" << endl; // Output if day is 3
+    //     break;
+    // case 4:
+    //     cout << "Wednesday" << endl; // Output if day is 4
+    //     break;
+    // case 5:
+    //     cout << "Thursday" << endl; // Output if day is 5
+    //     break;
+    // case 6:
+    //     cout << "Friday" << endl; // Output if day is 6
+    //     break;
+    // case 7:
+    //     cout << "Saturday" << endl; // Output if day is 7
+    //     break;
+    // default:
+    //     cout << "Invalid input. Please enter a number between 1 and 7." << endl;
+    // }
+
+    // Loops in C++:
+    // Loops are used to execute a block of code repeatedly as long as a specified condition is true. C++ provides several types of loops, including for loops, while loops, and do-while loops.
+
+    // 1- for Loop in C++:
+    // A for loop is used when the number of iterations is known beforehand. It consists of
+    // three parts: initialization, condition, and increment/decrement.
+
+    // 2- while Loop in C++:
+    // A while loop is used when the number of iterations is not known beforehand. It continues to execute a block of code as long as a specified condition is true.
+
+    // 3- do-while Loop in C++:
+    // A do-while loop is similar to a while loop, but it guarantees that the block of code will be executed at least once, even if the condition is false. The condition is evaluated after the block of code is executed.
+
+    // While Loop in C++:
+    // Syntax of a while loop in C++:
+    // while (condition) {
+    //     // code to be executed as long as the condition is true
+    // }
+
+    // Example of a while loop in C++:
+    // int input;
+    // cout << "Enter a positive number (or a negative number to exit): ";
+    // cin >> input; // Take input from the user
+
+    // while (input >= 0)
+    // {
+    //     cout << "You entered: " << input << endl;
+    //     cout << "Enter another positive number (or a negative number to exit): ";
+    //     cin >> input; // Take input from the user
+    // }
+
+    // For Loop in C++:
+    // Syntax of a for loop in C++:
+    // for (initialization; condition; increment/decrement) {
+    //     // code to be executed for each iteration
+    // }
+
+    // Example of a for loop in C++:
+    // for (int i = 1; i <= 5; i++)
+    // {
+    //     cout << "Iteration: " << i << endl; // Output the current iteration number
+    // }
+
+    // Do-While Loop in C++:
+    // Syntax of a do-while loop in C++:
+    // do {
+    //     // code to be executed at least once and then repeatedly as long as the condition
+    // } while (condition);
+
+    // int input;
+    // do
+    // {
+    //     cout << "Enter a positive number (or a negative number to exit): ";
+    //     cin >> input; // Take input from the user
+    //     cout << "You entered: " << input << endl;
+
+    // } while (input >= 0);
+    // for (int lineNum = 1; lineNum <= 5; lineNum++)
+    // {
+    //     for (int col = 1; col <= lineNum; col++)
+    //     {
+    //         cout << col;
+    //     }
+    //     cout << endl;
+    // }
+
     return 0;
 }
