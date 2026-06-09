@@ -11,11 +11,62 @@ using namespace std;
 // How old are you? -> How you are old? grammar is wrong, syntax is wrong.
 // cout >> "Hello, World!"  wrong syntax, it should be cout << "Hello, World!" correct syntax.
 
+// Functions Decleration
+// Return_type function_name(List_of_parameters){
+// Body of fuction
+// }
+
+// int factorial(int num)
+// {
+//     int r = 1;
+//     for (int i = num; i > 0; i--)
+//     {
+//         r = r * i;
+//     }
+//     return r;
+// }
+
+// void greating()
+// {
+//     cout << "Hello Karim" << endl;
+// }
+
+void swap(int a, int b)
+{
+    cout << "Before in Swap: " << a << " -- " << b << endl;
+    int temp = a;
+    a = b;
+    b = temp;
+    cout << "After in Swap: " << a << " -- " << b << endl;
+}
+
 // Main Funtion
 // It works as the entry point of the program. It is where the execution of the program begins.
 
 int main()
 {
+    // greating();
+    // cout << "Factorial 6 = " << factorial(6) << endl;
+    // cout << "Factorial 5 = " << factorial(5) << endl;
+    // cout << "Factorial 8 = " << factorial(8) << endl;
+
+    int a = 200;
+    // int b = 5, c = 6, d, e;
+    // int *ptr = &a;
+
+    // cout << ptr << endl;
+    // cout << *ptr << endl;
+    // cout << a << endl;
+
+    cout << a++ << endl;
+    cout << ++a << endl;
+
+    // int b = 7;
+
+    // cout << "Before: " << a << " -- " << b << endl;
+    // swap(a, b);
+    // cout << "After: " << a << " -- " << b << endl;
+
     // This is the code that the computer will execute when the program runs.
 
     // cout << "Hello, World!" << endl;
@@ -352,6 +403,30 @@ int main()
     //         cout << col;
     //     }
     //     cout << endl;
+    // }
+
+    // for (int i = 0; i <= 5; i++)
+    // {
+    //     cout << "New Line" << endl;
+    //     for (int j = 0; j <= 6; j++)
+    //     {
+    //         cout << "New Col\t";
+    //     }
+    //     cout << endl;
+    // }
+
+    // Array:
+    // Collection of data from the same type
+
+    // Syntax of Array:
+    // 1- data_type Array_name [size_of_array];
+    // 2- data_type Array_nane[] = {item1,item2,item3,........,itemN}
+
+    // int arr[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+
+    // for (int i = 0; i < 10; i++)
+    // {
+    //     cout << arr[i] << endl;
     // }
 
     return 0;
